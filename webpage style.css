@@ -1,0 +1,42 @@
+body{
+    background-color: yellow;
+}
+.introduction{
+    background-image: url(NewYorkCity.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1em;
+    margin: 1em;
+
+}
+.city{
+    padding: 1em;
+    margin: 1em;
+}
+.box{
+    border: 3px;
+    padding: 1em;
+    margin: auto;
+    border-radius: 0.8em;
+    display: flex;
+}
+.table, td, th{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+.modules{
+    margin: 1em;
+    padding: 1em;
+}
+@media(min-width: 600px){
+    .introduction{
+        display: flex;
+    }
+    .city{
+        display: flex;
+    }
+    .modules{
+        display: flex;
+    }
+}
